@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="cek">
+    <!-- <div class="container-all"> -->
+        <nav>
+            <div class="wrapper">
+                <h1 class="logo">Fadli</h1>
+                <div class="menu">
+                    <label for="cek" id="bars"><i class="fas fa-bars" onclick="bar()"></i></label>
+                </div>
+            </div>
+        </nav>
+
+        <!-- sidebar -->
+        <section class="side" id="side"> 
+    
+            <div class="wrapper">
+                <div class="isi home">
+                    <a href="#home" class="icon"><i class="fas fa-home"></i></a>
+                    <p class="diss">Home</p>
+                </div>
+                <div class="isi home">
+                    <a href="#about" class="icon"><i class="fas fa-user-circle"></i></a>
+                    <p class="diss">About</p>
+                </div>
+                <div class="isi code">
+                    <a href="#skils" class="icon"><i class="fas fa-code"></i></a>
+                    <p class="diss">Coding Skil</p>
+                </div>
+                <div class="isi home">
+                    <a href="#sekolah" class="icon"><i class="fas fa-school"></i></a>
+                    <p class="diss">School</p>
+                </div>
+                <div class="isi home">
+                    <a href="#contact" class="icon"><i class="fas fa-phone"></i></a>
+                    <p class="diss">Contact</p>
+                </div>
+            </div>
+            <div class="isi ig">
+                <a href="https://www.instagram.com/fadlikurniawan109/"><i class="fab fa-instagram"></i></a>
+                <p class="diss">Instagran</p>
+            </div>
+        </section>
+    
+        <!-- hero -->
+        <section id="home">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="caption">
+                        <p class="slog">Ayo menjadi diri sendiri<br>#beyourself</p>
+                        <h2>Muhammad Fadli Kurniawan</h2>
+                        <p class="kata">Jadilah diri sendiri, jangan ngikutin gaya hidup <span>orang lain</span></p>
+                    </div>
+                    <img src="img/hero.png" alt="">
+                </div>
+            </div>
+        </section>
+    
+        <!-- About -->
+    
+        <section id="about">
+            <div class="judul">About</div>
+            <div class="wrapper">
+                <img src="https://img.freepik.com/free-vector/instant-information-concept-illustration_114360-5264.jpg?w=740" alt="">
+                <div class="desc">
+                    <p>Hallo, perkenalkan nama saya Muhammad Fadli Kurniawan, Saya kelas 10 SMK dengan jurusan RPL ( Rekayasa Perangkat Lunak) di sekolah SMK Media Informatika Jakarta Selatan, saya angkatan 2024, website ini adalah website iseng iseng aja si wkwkwk, gabut aja yaudah bikin ae website kwkwk</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Skils -->
+    
+        <section id="skils">
+            <div class="judul">Skils</div>
+            <div class="wrapper">
+                <p class="desc">Berikut adalah bahasa Pemrograman yang saya pelajari</p>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skil-html">70%</div>
+                </div>
+                <p>C++</p>
+                <div class="container">
+                    <div class="skil-cpp">40%</div>
+                </div>
+                <p>Python</p>
+                <div class="container">
+                    <div class="skil-py">60%</div>
+                </div>
+                <p>Java Script</p>
+                <div class="container">
+                    <div class="skil-js">30%</div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Sekolah -->
+    
+        <section id="sekolah">
+            <div class="judul">Sekolah</div>
+            <div class="wrapper">
+                <p class="desc">letak Sekolah yang saya tempati sekarang</p>
+                <div class="isi">
+                    <iframe class ="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.138806352202!2d106.74472071476937!3d-6.245432095479281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0c4943b8531%3A0x9f78e0f0e9f4c39f!2sSMK%20Media%20Informatika!5e0!3m2!1sid!2sid!4v1645453127630!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contect -->
+    
+        <section id="contact">
+            <div class="judul">Contact</div>
+            <p class="desc">Hubungi saya disini</p>
+            <div class="wrapper">
+                <img src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740" alt="">
+                <div class="content">
+                     <div class="wa"><i class="fab fa-whatsapp"></i> Whatsaap Me : 08211231341</div>
+                     <div class="email"><i class="fas fa-envelope"></i>Email Me : argyfa3@gmail.com</div>
+                </div>
+            </div>
+        </section>
+    <!-- </div> -->
+
+    <footer>
+        <p>&copy; <b>Muhammad Fadli Kurniawan</b> copyright protected by law</p>
+    </footer>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
